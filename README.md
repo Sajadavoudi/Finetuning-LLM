@@ -1,11 +1,3 @@
-The notebooks implement an end-to-end fine-tuning workflow covering data preparation, model training with LoRA adapters, and post-training evaluation.
-
-Key Concepts
-- Parameter-Efficient Fine-Tuning (PEFT)  
-- LoRA adapters and layer freezing  
-- Instruction–response dataset design  
-- Quantitative and qualitative evaluation
-
 # Finetuning a Small LLM for Domain Q/A (Pythia-70M)
 
 This repo fine-tunes **EleutherAI/pythia-70m** as a domain Q/A assistant using a compact instruction dataset (`lamini/lamini_docs`).
